@@ -24,3 +24,15 @@
     width:100%;
     height:auto;
 }
+#<?php echo $id?> .br0{
+    border-radius:0;
+}
+
+#<?php echo $id?> .read_more{
+    background-color: <?php echo $styles['btn_bg']; ?>;
+    color: <?php echo $styles['btn_color']; ?>;
+}
+#<?php echo $id?> .read_more:hover{
+    background-color: <?php echo $styles['btn_hover_bg_color']; ?>;
+    color: <?php echo $styles['btn_hover_color']; ?>;
+}

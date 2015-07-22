@@ -59,7 +59,7 @@
 
             <?php if( $contents['link']): ?>
                 <div class="row">
-                    <a class="btn btn-primary btn-lg <?php echo $contents['link_alignment'];?> wow" href="<?php echo $contents['link']?>"><?php echo $contents['link_text']; ?></a>
+                    <a class="btn btn-primary btn-lg br0 read_more <?php echo $contents['link_alignment'];?> wow" href="<?php echo $contents['link']?>"><?php echo $contents['link_text']; ?></a>
                 </div>
             <?php endif; ?>
 
